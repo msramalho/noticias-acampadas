@@ -1,0 +1,33 @@
+name: Pedido de remoção
+description: Pedir a remoção de uma notícia ou de um conteúdo desta página
+title: "Remoção: "
+labels: ["remoção"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esta página é um índice de links para notícias publicadas pelos próprios meios, mantido sem fins lucrativos. Diz-nos o que queres que seja removido e porquê.
+  - type: textarea
+    id: conteudo
+    attributes:
+      label: Conteúdo
+      description: Endereço da notícia ou título, tal como aparece na página.
+    validations:
+      required: true
+  - type: textarea
+    id: razao
+    attributes:
+      label: Razão
+    validations:
+      required: true
+  - type: input
+    id: identidade
+    attributes:
+      label: Identidade ou organização que representa
+    validations:
+      required: true
+  - type: input
+    id: contacto
+    attributes:
+      label: Contacto (opcional)
+      description: Email ou outro contacto, se quiseres resposta fora do GitHub.

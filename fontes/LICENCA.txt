@@ -1,0 +1,4 @@
+Inter (Rasmus Andersson, https://rsms.me/inter/) e Source Serif 4 (Adobe, https://github.com/adobe-fonts/source-serif)
+são distribuídas sob a SIL Open Font License 1.1 (https://openfontlicense.org). Subconjuntos latin e latin-ext
+obtidos de fonts.googleapis.com a 2026-11-21 e servidos a partir do próprio site, para não enviar o IP de quem
+visita a página a terceiros.
